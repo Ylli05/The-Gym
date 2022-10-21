@@ -1,0 +1,215 @@
+.container{
+    background-color: black;
+    width: 200vh;
+    height: 95vh;
+    width: 1340px;
+    height: 640px;
+}
+.navbar{
+    background-color: rgba(39, 39, 39, 1);
+    width: 100%;
+    height: 10%;
+    display:flex
+}
+.navbar1{
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo1{
+    width: 40%;
+    height: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+.ph-logo{
+    width: 50%;
+    height: 100%;
+}
+.logo2{
+    /* background-color: blue; */
+    width: 55%;
+    height: 75%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.logo-txt{
+    font-weight: bolder;
+}
+span {
+    color: aqua;
+}
+.navbar2{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.button{
+    width: 15%;
+    height: 75%;
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(28, 255, 255, 1);
+}
+.btn-dec{
+    color: black;
+    text-decoration: none;
+}
+.button:hover{
+    box-shadow: 5px 5px 25px 1px #646464;
+    cursor: pointer;
+}
+.main-content{
+    width: 100%;
+    height: 90%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.title{
+    width: 100%;
+    height: 18%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.title-txt{
+    font-size: 60px;
+    color: white;
+    font-weight: bold;
+}
+.content{
+    width: 100%;
+    height: 82%;
+    /* background-color: lime; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 23%;
+    height: 80%;
+    background-color: rgba(39, 39, 39, 1);
+    border-radius: 30px;
+}
+.ctop{
+    width: 100%;
+    height: 55%;
+    /* background-color: red; */
+}
+.cbottom{
+    width: 100%;
+    height: 40%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+h2{
+    color: white;
+    font-weight: bold;
+    margin: 0px;
+}
+.ctext{
+    width: 80%;
+    color: white;
+    margin: 0px;
+    text-align: center;
+}
+.card:hover{
+    box-shadow: 5px 5px 25px 5px #646464;
+    cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+        height: 100%;
+
+    }
+    .navbar {
+      width: 100%;
+      height: 20%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .navbar1{
+        width: 50%;
+        height: 40%;
+        display: flex;
+        justify-content: center;
+    }
+    .logo-txt{
+        font-size: 18px;
+        margin: 0px;
+    }
+    .navbar2{
+        width: 800%;
+        height: 30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .button{ 
+        height: 95%;
+        width: 18%;
+    }
+    .btn-dec{
+        font-size: 14px;
+    }
+    .logo2{
+        width: 40%;
+    }
+    .main-content{
+        width: 100%;
+        height: 80%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .title-txt{
+        font-size: 30px;
+    }
+    .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .card{
+        width: 51%;
+        margin-bottom: 12px;
+    }
+    h2 {
+        font-size: 16px;
+    }
+    .ctext{
+        font-size: 10px;
+        width: 100%;
+    }
+    .cbottom{
+        display: flex;
+        flex-wrap: wrap;
+        height: 90%;
+    }
+  }
